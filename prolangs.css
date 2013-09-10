@@ -1,0 +1,35 @@
+#first  {
+	text-align: center;
+	color: red;
+	}
+#second {
+	text-align: center;
+	color: orange;
+	}
+#third {
+	text-align: center;
+	color: green;
+	}
+#fourth {
+	text-align: center;
+	color: pink;
+	}
+#fifth {
+	text-align: center;
+	color: blue;
+	}
+#sixth {
+	text-align: center;
+	color: yellow;
+	}
+#seventh {
+	text-align: center;
+	color: brown;
+	}
+#eighth {
+	text-align: center;
+	color: teal;
+	}
+		.noliststyletype {
+		list-style-type: none;
+		}
