@@ -1,3 +1,10 @@
+Side for introdusering av de mest brukte programmeringsspråk.
+
+proglangs.html - hovedside for websiden 
+proglangs.js - javascript biblioteket for proglangs.html 
+proglangs.css - stiler for websiden
+
+Oppgaver:
 0) Les introduksjon til JavaScript på http://w3schools.com/js/js_intro.asp og svar på følgende spørsmål, ­ hva kan JavaScript brukes til?
 
 Svar: JavaScript kan brukes til å manipulere elementer i et HTML dokument.
