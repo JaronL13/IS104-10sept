@@ -7,5 +7,5 @@
 function outboxx(selectobj){
  var e_proglangs = document.getElementById("george");
  var e_outputbox = document.getElementById("beskjed");
- e_outputbox.innerHTML = "<h2>Du har valgt programmeringsspr&aring;ket:</h2> " + e_proglangs.options[selectobj.selectedIndex].text;
+ e_outputbox.innerHTML = "<h2>Du har valgt programmeringsspr&aring;ket</h2> " + e_proglangs.options[selectobj.selectedIndex].text;
 }
