@@ -5,6 +5,11 @@
   Navn: Jaron Larsen		
   Jeg samarbeidet med: fikk en smule hjelp av Eirik Kvarstein, ellers det meste på egenhånd.
   Tiden jeg har brukt på oppgaven: 5-6 timer
+  
+  LAB2
+  Navn: Jaron Larsen
+  Jeg samarbeidet med: ingen
+  Tid jeg har brukt på oppgaven: ca 2 timer
 -->
 
 <html>
@@ -14,6 +19,16 @@
  <link href="proglangs.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
+
+<!-- site navigation meny -->
+<ul class="navbar">
+	<li><a href="proglangs.html">Hovedside</a>
+	<li><a onclick="outoforder()" href="proglangs.html">Hierarkisk</a>
+	<li><a onclick="outoforder()" href="proglangs.html">Alfabetisk</a>
+	<li><a onclick="outoforder()" href="proglangs.html">Kronologisk</a>
+	</ul>
+
+<!-- Hovedsiden med innhold -->
 <h3>Programmeringspr&aring;k:</h3>
 <select id=george onChange="outboxx(this)">
 	<option>Actionscript</option>
@@ -38,45 +53,49 @@
 	<option>Scala</option>
 	<option>Scheme</option>
 </select>
-<span id=beskjed> <h1>Ta et valg!</h1>
+<span id=beskjed> <h1>Velkommen til
+en mystisk verden av programmeringsspråk</h1>
 </span>
-	<ul class="noliststyletype" id="first">
+	<ul id="first">
 		<li>Actionscript</li>
 		<li>AppleScript</li>
 	</ul>
-	<ul class="noliststyletype" id="second">
+	<ul id="second">
 		<li>Asp</li>
 		<li>BASIC</li>
 		<li>C</li>
 	</ul>
-	<ul class="noliststyletype" id="third">
+	<ul id="third">
 		<li>C++</li>
 		<li>Clojure</li>
 		<li>COBOL</li>
 		<li>ColdFusion</li>
 	</ul>
-	<ul class="noliststyletype" id="fourth">
+	<ul id="fourth">
 		<li>Erlang</li>
 		<li>Fortran</li>
 		<li>Groovy</li>
 		<li>Haskell</li>
 	</ul>
-	<ul class="noliststyletype" id="fifth">
+	<ul id="fifth">
 		<li>Java</li>
 		<li>JavaScript</li>
 	</ul>
-	<ul class="noliststyletype" id="sixth">	
+	<ul id="sixth">	
 		<li>Lisp</li>
 		<li>Perl</li>
 	</ul>
-	<ul class="noliststyletype" id="seventh">
+	<ul id="seventh">
 		<li>PHP</li>
 	</ul>
-	<ul class="noliststyletype" id="eighth">
+	<ul id="eighth">
 		<li>Ruby</li>
 		<li>Scala</li>
 		<li>Scheme</li>
 	</ul>
 	<script src="proglangs.js"></script>
+	
+	<!-- Signering og dato for siden --> 
+	<address>Laget og redigert (19 September 2013) <br> av Jaron Larsen. </address>
 </body>
 </html>

@@ -1,8 +1,20 @@
 Side for introdusering av de mest brukte programmeringsspråk.
 
-proglangs.html - hovedside for websiden 
-proglangs.js - javascript biblioteket for proglangs.html 
-proglangs.css - stiler for websiden
+proglangs.html - Hovedside for websiden 
+proglangs.js - Javascript biblioteket for proglangs.html 
+proglangs.css - Stiler for websiden
+readme.txt - inneholdsfortegnelsen
+
+Oppgave 18/09/2013
+Forklar hvilken deler av din applikasjon så langt, implementerer de forskjellige lagene i MVC arkitekturen. MVC står får ModelViewController,
+som til norsk kan oversettes til ModellPresentasjonKontorller.
+
+Svar: 	Model er HTML filen der dataen holdes.
+	View er CSS filen som bestemmer hvordan siden skal vises.
+	Controller er JavaScript filen som kontrollerer hva som skal vises av informasjonen i HTML filen.
+	Poenget er å gjøre ting mer oversiktlig og redusere repetisjonen av data.
+
+
 
 Oppgaver:
 0) Les introduksjon til JavaScript på http://w3schools.com/js/js_intro.asp og svar på følgende spørsmål, ­ hva kan JavaScript brukes til?

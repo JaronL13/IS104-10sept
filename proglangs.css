@@ -1,3 +1,5 @@
+/* CSS FIL MED KOMMENTARER OM HVA SOM ER HVA */
+/* Hver programmeringsspråk gruppe */
 #first  {
 	text-align: center;
 	color: red;
@@ -32,4 +34,54 @@
 	}
 		.noliststyletype {
 		list-style-type: none;
+		}
+		
+		/* Side helhetsdesign */
+body { 	padding-left: 11em;
+		font-family: Georgia, "Times New Roman";
+		color: black;
+		background-color: white;
+} 
+
+		/*Venstre navigasjonsbar*/
+ul.navbar {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 2em;
+		left: 1em;
+		width: 9em 
+		}
+				
+ul.navbar li {
+		background: #00FFFF;
+		margin: 0.5em 0;
+		padding: 0.3em;
+		border-right: 0.5em solid black 
+		}
+ul.navbar a {
+		text-decoration: none 
+		}
+		
+		/* Linker generelt */
+a:link {
+		color: blue 
+		}
+a:visited {
+		color: purple
+		}
+		
+		/* Hoveddefinisjoner på lister og headere  */ 
+ul {		list-style-type: none;
+}
+h1 {
+		font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif 
+		}
+		
+		/* Nederste delen av siden, adressebar */
+address {
+		margin-top: 1em;
+		padding-top: 1em;
+		border-top: thin dotted 
 		}
