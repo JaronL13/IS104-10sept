@@ -3,7 +3,7 @@ Side for introdusering av de mest brukte programmeringsspråk.
 proglangs.html - Hovedside for websiden 
 proglangs.js - Javascript biblioteket for proglangs.html 
 proglangs.css - Stiler for websiden
-readme.txt - inneholdsfortegnelsen
+readme.txt - inneholdsfortegnelsen og oppgaver knyttet til stråkene
 
 Oppgave 18/09/2013
 Forklar hvilken deler av din applikasjon så langt, implementerer de forskjellige lagene i MVC arkitekturen. MVC står får ModelViewController,
