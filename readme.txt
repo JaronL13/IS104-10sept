@@ -1,9 +1,14 @@
 Side for introdusering av de mest brukte programmeringsspråk.
 
+Lab 4.html - Html filen med hoved kodingen til Programmeringslisten
+Lab 4.css - Filen som anngir utseende og designet for listen
+bluesprite.jpg - Sprite image filen som er en del av utsende
+jquery.scrollTo-1.4.3.1-min.js - gir mulighet for scroll funksjonen i jquery
+jquery-1.8.1.js - jquery biblioteket
 proglangs.html - Hovedside for websiden 
 proglangs.js - Javascript biblioteket for proglangs.html 
 proglangs.css - Stiler for websiden
-readme.txt - inneholdsfortegnelsen og oppgaver knyttet til stråkene
+readme.txt - inneholdsfortegnelsen og oppgaver knyttet til språkene
 
 Oppgave 18/09/2013
 Forklar hvilken deler av din applikasjon så langt, implementerer de forskjellige lagene i MVC arkitekturen. MVC står får ModelViewController,
